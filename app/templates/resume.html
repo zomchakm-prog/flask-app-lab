@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="row g-4">
+    <div class="col-lg-4 text-center">
+        <div class="card p-4 shadow-sm rounded-4">
+            
+            <img src="{{ url_for('static', filename='images/photo.jpg') }}" alt="Моє фото" class="img-fluid rounded-circle shadow profile-img mx-auto mb-3">
+            <h2 class="mb-1">Максим Зомчак</h2>
+            <p class="text-muted">Python / Flask Розробник</p>
+        </div>
+    </div>
+    
+    <div class="col-lg-8">
+        <div class="card p-4 shadow-sm rounded-4">
+            <section class="mb-4">
+                <h3 class="border-bottom pb-2 fw-semibold">Про себе</h3>
+                <p>Студент, який захоплюється веб-розробкою, вивченням Python, Flask та хмарних технологій.</p>
+            </section>
+
+            <section class="mb-4">
+                <h3 class="border-bottom pb-2 fw-semibold">Освіта</h3>
+                <ul>
+                    <li><strong>Університет</strong> — Спеціальність "Інженерія програмного забезпечення"</li>
+                </ul>
+            </section>
+
+            <section class="mb-4">
+                <h3 class="border-bottom pb-2 fw-semibold">Навички</h3>
+                <span class="badge bg-primary fs-6 m-1">Python</span>
+                <span class="badge bg-secondary fs-6 m-1">Flask</span>
+                <span class="badge bg-success fs-6 m-1">HTML/CSS</span>
+                <span class="badge bg-info text-dark fs-6 m-1">Git</span>
+            </section>
+
+            <section class="mb-4">
+                <h3 class="border-bottom pb-2 fw-semibold">Технології</h3>
+                <p>VS Code,  Render.</p>
+            </section>
+
+            <section>
+                <h3 class="border-bottom pb-2 fw-semibold">Досвід роботи / Проекти</h3>
+                <div class="card bg-light border-0">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Flask Resume App</h5>
+                        <p class="card-text">Веб-додаток для демонстрації резюме з використанням Flask, Jinja2 шаблонів та деплоєм на Render.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+{% endblock %}
