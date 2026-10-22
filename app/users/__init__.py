@@ -1,8 +1,5 @@
-from flask import Flask
+from flask import Blueprint
 
-app = Flask(__name__)
+users_bp = Blueprint('users', __name__, template_folder='templates')
 
-from app.users import users_bp
-app.register_blueprint(users_bp, url_prefix='/users')
-
-from app import views
+from app.users import views
