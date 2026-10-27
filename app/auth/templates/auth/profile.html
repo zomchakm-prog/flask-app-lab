@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="card p-4 shadow-sm rounded-4 {% if theme == 'dark' %}bg-dark text-white{% else %}bg-light text-dark{% endif %}">
+    
+    <div class="p-3 mb-4 rounded bg-primary text-white d-flex justify-content-between align-items-center">
+        <h2>Ласкаво просимо до сторінки 👥 {{ username }}!</h2>
+        <div>
+            <a href="{{ url_for('auth.set_theme', theme_name='light') }}" class="btn btn-sm btn-light">Світла</a>
+            <a href="{{ url_for('auth.set_theme', theme_name='dark') }}" class="btn btn-sm btn-secondary">Темна</a>
+        </div>
+    </div>
+
+    <p>Тут ви можете отримати інформацію та вийти з системи.</p>
+    
+    <div class="mb-4">
+        <a href="{{ url_for('auth.logout') }}" class="btn btn-danger">Вийти</a>
+    </div>
+
+    <hr>
+
+    <h4 class="mb-3">Додати кукі:</h4>
+    <form method="POST" class="row g-3 mb-4">
+        <input type="hidden" name="action" value="add">
+        <div class="col-md-4">
+            <label class="form-label">Ключ кукі:</label>
+            <input type="text" class="form-control" name="cookie_key" required>
+        </div>
+        <div class="col-md-5">
+            <label class="form-label">Значення кукі:</label>
+            <input type="text" class="form-control" name="cookie_value" required>
+        </div>
+        <div class="col-md-3">
+            <label class="form-label">Термін дії (сек):</label>
+            <input type="number" class="form-control" name="cookie_max_age">
+        </div>
+        <div class="col-12">
+            <button type="submit" class="btn btn-success">Додати кукі</button>
+        </div>
+    </form>
+
+    <hr>
+
+    <h4 class="mb-3">Видалити кукі за ключем:</h4>
+    <form method="POST" class="row g-3 mb-4">
+        <input type="hidden" name="action" value="delete_one">
+        <div class="col-md-8">
+            <input type="text" class="form-control" name="delete_key" placeholder="Ключ кукі для видалення" required>
+        </div>
+        <div class="col-md-4">
+            <button type="submit" class="btn btn-warning text-dark w-100">Видалити кукі за ключем</button>
+        </div>
+    </form>
+
+    <form method="POST" class="mb-4">
+        <input type="hidden" name="action" value="delete_all">
+        <h4 class="mb-3">Видалити всі кукі:</h4>
+        <button type="submit" class="btn btn-danger">Видалити всі кукі</button>
+    </form>
+
+    <hr>
+
+    <h3 class="mb-3">Список всіх кукі:</h3>
+    <table class="table table-striped {% if theme == 'dark' %}table-dark text-white{% endif %}">
+        <thead>
+            <tr>
+                <th>Ключ</th>
+                <th>Значення</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for key, value in cookies.items() %}
+            <tr>
+                <td>{{ key }}</td>
+                <td>{{ value }}</td>
+            </tr>
+            {% else %}
+            <tr>
+                <td colspan="2" class="text-center">Кукі відсутні</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+</div>
+{% endblock %}
