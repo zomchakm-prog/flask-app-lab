@@ -45,3 +45,328 @@
 2026-11-01 16:40:29,964 - INFO - 127.0.0.1 - - [01/Nov/2026 16:40:29] "GET /static/css/styles.css HTTP/1.1" 304 -
 2026-11-01 16:40:32,236 - INFO - 127.0.0.1 - - [01/Nov/2026 16:40:32] "GET /contacts HTTP/1.1" 200 -
 2026-11-01 16:40:32,261 - INFO - 127.0.0.1 - - [01/Nov/2026 16:40:32] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:36:49,654 - INFO - WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-11-01 17:36:49,654 - INFO - Press CTRL+C to quit
+2026-11-01 17:36:49,655 - INFO -  * Restarting with stat
+2026-11-01 17:36:49,921 - WARNING -  * Debugger is active!
+2026-11-01 17:36:49,925 - INFO -  * Debugger PIN: 111-119-912
+2026-11-01 17:36:56,392 - INFO - 127.0.0.1 - - [01/Nov/2026 17:36:56] "GET /contacts HTTP/1.1" 200 -
+2026-11-01 17:36:56,475 - INFO - 127.0.0.1 - - [01/Nov/2026 17:36:56] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:36:57,502 - INFO - 127.0.0.1 - - [01/Nov/2026 17:36:57] "GET /users/hi/John?age=30 HTTP/1.1" 200 -
+2026-11-01 17:36:57,525 - INFO - 127.0.0.1 - - [01/Nov/2026 17:36:57] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:36:58,084 - INFO - 127.0.0.1 - - [01/Nov/2026 17:36:58] "GET /contacts HTTP/1.1" 200 -
+2026-11-01 17:36:58,122 - INFO - 127.0.0.1 - - [01/Nov/2026 17:36:58] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:36:58,805 - INFO - 127.0.0.1 - - [01/Nov/2026 17:36:58] "GET / HTTP/1.1" 200 -
+2026-11-01 17:36:58,830 - INFO - 127.0.0.1 - - [01/Nov/2026 17:36:58] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:36:58,837 - INFO - 127.0.0.1 - - [01/Nov/2026 17:36:58] "GET /static/images/photo.jpg HTTP/1.1" 304 -
+2026-11-01 17:36:59,419 - INFO - 127.0.0.1 - - [01/Nov/2026 17:36:59] "GET /products/ HTTP/1.1" 200 -
+2026-11-01 17:36:59,442 - INFO - 127.0.0.1 - - [01/Nov/2026 17:36:59] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:37:04,199 - INFO - 127.0.0.1 - - [01/Nov/2026 17:37:04] "GET /products/ HTTP/1.1" 200 -
+2026-11-01 17:37:04,225 - INFO - 127.0.0.1 - - [01/Nov/2026 17:37:04] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:37:32,907 - INFO - 127.0.0.1 - - [01/Nov/2026 17:37:32] "GET / HTTP/1.1" 200 -
+2026-11-01 17:37:32,942 - INFO - 127.0.0.1 - - [01/Nov/2026 17:37:32] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:37:32,942 - INFO - 127.0.0.1 - - [01/Nov/2026 17:37:32] "GET /static/images/photo.jpg HTTP/1.1" 304 -
+2026-11-01 17:37:34,276 - INFO - 127.0.0.1 - - [01/Nov/2026 17:37:34] "GET / HTTP/1.1" 200 -
+2026-11-01 17:37:34,303 - INFO - 127.0.0.1 - - [01/Nov/2026 17:37:34] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:37:34,304 - INFO - 127.0.0.1 - - [01/Nov/2026 17:37:34] "GET /static/images/photo.jpg HTTP/1.1" 304 -
+2026-11-01 17:37:34,749 - INFO - 127.0.0.1 - - [01/Nov/2026 17:37:34] "GET /products/ HTTP/1.1" 200 -
+2026-11-01 17:37:34,771 - INFO - 127.0.0.1 - - [01/Nov/2026 17:37:34] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:37:35,265 - INFO - 127.0.0.1 - - [01/Nov/2026 17:37:35] "GET /users/hi/John?age=30 HTTP/1.1" 200 -
+2026-11-01 17:37:35,288 - INFO - 127.0.0.1 - - [01/Nov/2026 17:37:35] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:37:35,635 - INFO - 127.0.0.1 - - [01/Nov/2026 17:37:35] "GET /contacts HTTP/1.1" 200 -
+2026-11-01 17:37:35,658 - INFO - 127.0.0.1 - - [01/Nov/2026 17:37:35] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:37:59,910 - INFO - 127.0.0.1 - - [01/Nov/2026 17:37:59] "POST /contacts HTTP/1.1" 405 -
+2026-11-01 17:38:09,501 - INFO - 127.0.0.1 - - [01/Nov/2026 17:38:09] "POST /contacts HTTP/1.1" 405 -
+2026-11-01 17:38:11,590 - INFO - 127.0.0.1 - - [01/Nov/2026 17:38:11] "GET /contacts HTTP/1.1" 200 -
+2026-11-01 17:38:11,618 - INFO - 127.0.0.1 - - [01/Nov/2026 17:38:11] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:38:12,431 - INFO - 127.0.0.1 - - [01/Nov/2026 17:38:12] "GET /users/hi/John?age=30 HTTP/1.1" 200 -
+2026-11-01 17:38:12,454 - INFO - 127.0.0.1 - - [01/Nov/2026 17:38:12] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:38:12,932 - INFO - 127.0.0.1 - - [01/Nov/2026 17:38:12] "GET /products/ HTTP/1.1" 200 -
+2026-11-01 17:38:12,962 - INFO - 127.0.0.1 - - [01/Nov/2026 17:38:12] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:38:13,317 - INFO - 127.0.0.1 - - [01/Nov/2026 17:38:13] "GET / HTTP/1.1" 200 -
+2026-11-01 17:38:13,340 - INFO - 127.0.0.1 - - [01/Nov/2026 17:38:13] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:38:13,344 - INFO - 127.0.0.1 - - [01/Nov/2026 17:38:13] "GET /static/images/photo.jpg HTTP/1.1" 304 -
+2026-11-01 17:38:13,791 - INFO - 127.0.0.1 - - [01/Nov/2026 17:38:13] "GET /homepage HTTP/1.1" 200 -
+2026-11-01 17:38:13,822 - INFO - 127.0.0.1 - - [01/Nov/2026 17:38:13] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:38:14,356 - INFO - 127.0.0.1 - - [01/Nov/2026 17:38:14] "GET / HTTP/1.1" 200 -
+2026-11-01 17:38:14,382 - INFO - 127.0.0.1 - - [01/Nov/2026 17:38:14] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:38:14,388 - INFO - 127.0.0.1 - - [01/Nov/2026 17:38:14] "GET /static/images/photo.jpg HTTP/1.1" 304 -
+2026-11-01 17:38:14,630 - INFO - 127.0.0.1 - - [01/Nov/2026 17:38:14] "GET /products/ HTTP/1.1" 200 -
+2026-11-01 17:38:14,655 - INFO - 127.0.0.1 - - [01/Nov/2026 17:38:14] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:38:14,912 - INFO - 127.0.0.1 - - [01/Nov/2026 17:38:14] "GET /users/hi/John?age=30 HTTP/1.1" 200 -
+2026-11-01 17:38:14,937 - INFO - 127.0.0.1 - - [01/Nov/2026 17:38:14] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:38:15,144 - INFO - 127.0.0.1 - - [01/Nov/2026 17:38:15] "GET /contacts HTTP/1.1" 200 -
+2026-11-01 17:38:15,176 - INFO - 127.0.0.1 - - [01/Nov/2026 17:38:15] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:38:15,694 - INFO - 127.0.0.1 - - [01/Nov/2026 17:38:15] "GET /users/hi/John?age=30 HTTP/1.1" 200 -
+2026-11-01 17:38:15,717 - INFO - 127.0.0.1 - - [01/Nov/2026 17:38:15] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:38:15,956 - INFO - 127.0.0.1 - - [01/Nov/2026 17:38:15] "GET /products/ HTTP/1.1" 200 -
+2026-11-01 17:38:15,988 - INFO - 127.0.0.1 - - [01/Nov/2026 17:38:15] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:38:16,740 - INFO - 127.0.0.1 - - [01/Nov/2026 17:38:16] "GET / HTTP/1.1" 200 -
+2026-11-01 17:38:16,775 - INFO - 127.0.0.1 - - [01/Nov/2026 17:38:16] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:38:16,776 - INFO - 127.0.0.1 - - [01/Nov/2026 17:38:16] "GET /static/images/photo.jpg HTTP/1.1" 304 -
+2026-11-01 17:38:17,077 - INFO - 127.0.0.1 - - [01/Nov/2026 17:38:17] "GET /products/ HTTP/1.1" 200 -
+2026-11-01 17:38:17,110 - INFO - 127.0.0.1 - - [01/Nov/2026 17:38:17] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:38:17,654 - INFO - 127.0.0.1 - - [01/Nov/2026 17:38:17] "GET /products/ HTTP/1.1" 200 -
+2026-11-01 17:38:17,685 - INFO - 127.0.0.1 - - [01/Nov/2026 17:38:17] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:38:18,151 - INFO - 127.0.0.1 - - [01/Nov/2026 17:38:18] "GET / HTTP/1.1" 200 -
+2026-11-01 17:38:18,185 - INFO - 127.0.0.1 - - [01/Nov/2026 17:38:18] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:38:18,186 - INFO - 127.0.0.1 - - [01/Nov/2026 17:38:18] "GET /static/images/photo.jpg HTTP/1.1" 304 -
+2026-11-01 17:38:18,327 - INFO - 127.0.0.1 - - [01/Nov/2026 17:38:18] "GET /products/ HTTP/1.1" 200 -
+2026-11-01 17:38:18,361 - INFO - 127.0.0.1 - - [01/Nov/2026 17:38:18] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:38:18,682 - INFO - 127.0.0.1 - - [01/Nov/2026 17:38:18] "GET /products/ HTTP/1.1" 200 -
+2026-11-01 17:38:18,710 - INFO - 127.0.0.1 - - [01/Nov/2026 17:38:18] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:39:47,395 - INFO - 127.0.0.1 - - [01/Nov/2026 17:39:47] "GET /products/add HTTP/1.1" 200 -
+2026-11-01 17:39:47,418 - INFO - 127.0.0.1 - - [01/Nov/2026 17:39:47] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:39:54,484 - INFO - 127.0.0.1 - - [01/Nov/2026 17:39:54] "GET / HTTP/1.1" 200 -
+2026-11-01 17:39:54,513 - INFO - 127.0.0.1 - - [01/Nov/2026 17:39:54] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:39:54,514 - INFO - 127.0.0.1 - - [01/Nov/2026 17:39:54] "GET /static/images/photo.jpg HTTP/1.1" 304 -
+2026-11-01 17:39:57,483 - INFO - 127.0.0.1 - - [01/Nov/2026 17:39:57] "GET /products/add HTTP/1.1" 200 -
+2026-11-01 17:39:57,505 - INFO - 127.0.0.1 - - [01/Nov/2026 17:39:57] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:41:35,137 - INFO - 127.0.0.1 - - [01/Nov/2026 17:41:35] "POST /products/add HTTP/1.1" 200 -
+2026-11-01 17:41:35,166 - INFO - 127.0.0.1 - - [01/Nov/2026 17:41:35] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:42:33,965 - INFO - 127.0.0.1 - - [01/Nov/2026 17:42:33] "POST /products/add HTTP/1.1" 302 -
+2026-11-01 17:42:33,970 - INFO - 127.0.0.1 - - [01/Nov/2026 17:42:33] "GET /products/ HTTP/1.1" 200 -
+2026-11-01 17:42:34,015 - INFO - 127.0.0.1 - - [01/Nov/2026 17:42:34] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:42:35,256 - INFO - 127.0.0.1 - - [01/Nov/2026 17:42:35] "GET /products/1 HTTP/1.1" 200 -
+2026-11-01 17:42:35,286 - INFO - 127.0.0.1 - - [01/Nov/2026 17:42:35] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:42:37,571 - INFO - 127.0.0.1 - - [01/Nov/2026 17:42:37] "GET /products/ HTTP/1.1" 200 -
+2026-11-01 17:42:37,598 - INFO - 127.0.0.1 - - [01/Nov/2026 17:42:37] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:42:47,916 - INFO - 127.0.0.1 - - [01/Nov/2026 17:42:47] "GET /products/1 HTTP/1.1" 200 -
+2026-11-01 17:42:47,937 - INFO - 127.0.0.1 - - [01/Nov/2026 17:42:47] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:46:44,162 - INFO - 127.0.0.1 - - [01/Nov/2026 17:46:44] "GET /products/1 HTTP/1.1" 200 -
+2026-11-01 17:46:44,184 - INFO - 127.0.0.1 - - [01/Nov/2026 17:46:44] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:46:45,262 - INFO - 127.0.0.1 - - [01/Nov/2026 17:46:45] "GET /products/ HTTP/1.1" 200 -
+2026-11-01 17:46:45,293 - INFO - 127.0.0.1 - - [01/Nov/2026 17:46:45] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:48:36,804 - INFO - WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-11-01 17:48:36,805 - INFO - Press CTRL+C to quit
+2026-11-01 17:48:36,805 - INFO -  * Restarting with stat
+2026-11-01 17:48:37,095 - WARNING -  * Debugger is active!
+2026-11-01 17:48:37,097 - INFO -  * Debugger PIN: 111-119-912
+2026-11-01 17:48:39,991 - INFO - 127.0.0.1 - - [01/Nov/2026 17:48:39] "GET /products/ HTTP/1.1" 500 -
+2026-11-01 17:48:40,087 - INFO - 127.0.0.1 - - [01/Nov/2026 17:48:40] "GET /products/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-11-01 17:48:40,087 - INFO - 127.0.0.1 - - [01/Nov/2026 17:48:40] "GET /products/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-11-01 17:48:40,114 - INFO - 127.0.0.1 - - [01/Nov/2026 17:48:40] "GET /products/?__debugger__=yes&cmd=resource&f=console.png&s=1vmkLmGUtj54ZEqeOahj HTTP/1.1" 200 -
+2026-11-01 17:48:40,233 - INFO - 127.0.0.1 - - [01/Nov/2026 17:48:40] "GET /products/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-11-01 17:48:40,902 - INFO - 127.0.0.1 - - [01/Nov/2026 17:48:40] "GET /products/ HTTP/1.1" 500 -
+2026-11-01 17:48:40,939 - INFO - 127.0.0.1 - - [01/Nov/2026 17:48:40] "GET /products/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+2026-11-01 17:48:40,940 - INFO - 127.0.0.1 - - [01/Nov/2026 17:48:40] "GET /products/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+2026-11-01 17:48:40,954 - INFO - 127.0.0.1 - - [01/Nov/2026 17:48:40] "GET /products/?__debugger__=yes&cmd=resource&f=console.png&s=1vmkLmGUtj54ZEqeOahj HTTP/1.1" 304 -
+2026-11-01 17:48:40,975 - INFO - 127.0.0.1 - - [01/Nov/2026 17:48:40] "GET /products/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+2026-11-01 17:48:41,177 - INFO - 127.0.0.1 - - [01/Nov/2026 17:48:41] "GET /products/ HTTP/1.1" 500 -
+2026-11-01 17:48:41,210 - INFO - 127.0.0.1 - - [01/Nov/2026 17:48:41] "GET /products/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+2026-11-01 17:48:41,211 - INFO - 127.0.0.1 - - [01/Nov/2026 17:48:41] "GET /products/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+2026-11-01 17:48:41,222 - INFO - 127.0.0.1 - - [01/Nov/2026 17:48:41] "GET /products/?__debugger__=yes&cmd=resource&f=console.png&s=1vmkLmGUtj54ZEqeOahj HTTP/1.1" 304 -
+2026-11-01 17:48:41,233 - INFO - 127.0.0.1 - - [01/Nov/2026 17:48:41] "GET /products/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+2026-11-01 17:48:41,337 - INFO - 127.0.0.1 - - [01/Nov/2026 17:48:41] "GET /products/ HTTP/1.1" 500 -
+2026-11-01 17:48:41,375 - INFO - 127.0.0.1 - - [01/Nov/2026 17:48:41] "GET /products/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+2026-11-01 17:48:41,376 - INFO - 127.0.0.1 - - [01/Nov/2026 17:48:41] "GET /products/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+2026-11-01 17:48:41,387 - INFO - 127.0.0.1 - - [01/Nov/2026 17:48:41] "GET /products/?__debugger__=yes&cmd=resource&f=console.png&s=1vmkLmGUtj54ZEqeOahj HTTP/1.1" 304 -
+2026-11-01 17:48:41,460 - INFO - 127.0.0.1 - - [01/Nov/2026 17:48:41] "GET /products/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+2026-11-01 17:48:44,448 - INFO - 127.0.0.1 - - [01/Nov/2026 17:48:44] "GET / HTTP/1.1" 200 -
+2026-11-01 17:48:44,477 - INFO - 127.0.0.1 - - [01/Nov/2026 17:48:44] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:48:44,478 - INFO - 127.0.0.1 - - [01/Nov/2026 17:48:44] "GET /static/images/photo.jpg HTTP/1.1" 304 -
+2026-11-01 17:48:44,951 - INFO - 127.0.0.1 - - [01/Nov/2026 17:48:44] "GET /homepage HTTP/1.1" 200 -
+2026-11-01 17:48:44,976 - INFO - 127.0.0.1 - - [01/Nov/2026 17:48:44] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:48:45,610 - INFO - 127.0.0.1 - - [01/Nov/2026 17:48:45] "GET / HTTP/1.1" 200 -
+2026-11-01 17:48:45,644 - INFO - 127.0.0.1 - - [01/Nov/2026 17:48:45] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:48:45,646 - INFO - 127.0.0.1 - - [01/Nov/2026 17:48:45] "GET /static/images/photo.jpg HTTP/1.1" 304 -
+2026-11-01 17:48:45,924 - INFO - 127.0.0.1 - - [01/Nov/2026 17:48:45] "GET /products/ HTTP/1.1" 500 -
+2026-11-01 17:48:45,956 - INFO - 127.0.0.1 - - [01/Nov/2026 17:48:45] "GET /products/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+2026-11-01 17:48:45,958 - INFO - 127.0.0.1 - - [01/Nov/2026 17:48:45] "GET /products/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+2026-11-01 17:48:45,971 - INFO - 127.0.0.1 - - [01/Nov/2026 17:48:45] "GET /products/?__debugger__=yes&cmd=resource&f=console.png&s=1vmkLmGUtj54ZEqeOahj HTTP/1.1" 304 -
+2026-11-01 17:50:05,776 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:05] "GET / HTTP/1.1" 200 -
+2026-11-01 17:50:05,807 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:05] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:50:05,809 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:05] "GET /static/images/photo.jpg HTTP/1.1" 304 -
+2026-11-01 17:50:26,828 - INFO - WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-11-01 17:50:26,828 - INFO - Press CTRL+C to quit
+2026-11-01 17:50:26,829 - INFO -  * Restarting with stat
+2026-11-01 17:50:27,067 - WARNING -  * Debugger is active!
+2026-11-01 17:50:27,069 - INFO -  * Debugger PIN: 111-119-912
+2026-11-01 17:50:30,307 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:30] "GET / HTTP/1.1" 200 -
+2026-11-01 17:50:30,399 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:30] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:50:30,402 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:30] "GET /static/images/photo.jpg HTTP/1.1" 304 -
+2026-11-01 17:50:31,276 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:31] "GET / HTTP/1.1" 200 -
+2026-11-01 17:50:31,303 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:31] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:50:31,305 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:31] "GET /static/images/photo.jpg HTTP/1.1" 304 -
+2026-11-01 17:50:32,055 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:32] "GET / HTTP/1.1" 200 -
+2026-11-01 17:50:32,087 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:32] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:50:32,090 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:32] "GET /static/images/photo.jpg HTTP/1.1" 304 -
+2026-11-01 17:50:32,597 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:32] "GET /products/ HTTP/1.1" 200 -
+2026-11-01 17:50:32,620 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:32] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:50:32,627 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:32] "GET /static/uploads/4dd24636-e790-4bbe-9db0-9c247f28a802.jpg HTTP/1.1" 404 -
+2026-11-01 17:50:35,872 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:35] "GET /products/1 HTTP/1.1" 200 -
+2026-11-01 17:50:35,900 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:35] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:50:37,113 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:37] "GET /products/ HTTP/1.1" 200 -
+2026-11-01 17:50:37,144 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:37] "GET /static/uploads/4dd24636-e790-4bbe-9db0-9c247f28a802.jpg HTTP/1.1" 404 -
+2026-11-01 17:50:37,144 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:37] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:50:39,267 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:39] "GET /products/1/edit HTTP/1.1" 200 -
+2026-11-01 17:50:39,293 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:39] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:50:43,710 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:43] "POST /products/1/edit HTTP/1.1" 302 -
+2026-11-01 17:50:43,715 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:43] "GET /products/1 HTTP/1.1" 200 -
+2026-11-01 17:50:43,753 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:43] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:50:44,687 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:44] "GET /products/ HTTP/1.1" 200 -
+2026-11-01 17:50:44,718 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:44] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:50:44,719 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:44] "GET /static/uploads/aa69685a-c3b1-4c1d-a13f-6faddb123dbd.jpg HTTP/1.1" 404 -
+2026-11-01 17:50:46,950 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:46] "GET /products/1 HTTP/1.1" 200 -
+2026-11-01 17:50:46,981 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:46] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:50:47,713 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:47] "GET /products/ HTTP/1.1" 200 -
+2026-11-01 17:50:47,743 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:47] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:50:47,747 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:47] "GET /static/uploads/aa69685a-c3b1-4c1d-a13f-6faddb123dbd.jpg HTTP/1.1" 404 -
+2026-11-01 17:50:48,654 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:48] "GET /products/1/edit HTTP/1.1" 200 -
+2026-11-01 17:50:48,679 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:48] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:50:52,582 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:52] "GET /products/1 HTTP/1.1" 200 -
+2026-11-01 17:50:52,611 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:52] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:50:53,559 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:53] "GET /products/ HTTP/1.1" 200 -
+2026-11-01 17:50:53,585 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:53] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:50:53,591 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:53] "GET /static/uploads/aa69685a-c3b1-4c1d-a13f-6faddb123dbd.jpg HTTP/1.1" 404 -
+2026-11-01 17:50:55,658 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:55] "POST /products/1/delete HTTP/1.1" 302 -
+2026-11-01 17:50:55,663 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:55] "GET /products/ HTTP/1.1" 200 -
+2026-11-01 17:50:55,714 - INFO - 127.0.0.1 - - [01/Nov/2026 17:50:55] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:52:09,186 - INFO - WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-11-01 17:52:09,186 - INFO - Press CTRL+C to quit
+2026-11-01 17:52:09,187 - INFO -  * Restarting with stat
+2026-11-01 17:52:09,419 - WARNING -  * Debugger is active!
+2026-11-01 17:52:09,422 - INFO -  * Debugger PIN: 111-119-912
+2026-11-01 17:52:15,969 - INFO - 127.0.0.1 - - [01/Nov/2026 17:52:15] "GET /products/add HTTP/1.1" 200 -
+2026-11-01 17:52:16,038 - INFO - 127.0.0.1 - - [01/Nov/2026 17:52:16] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:53:24,788 - INFO - 127.0.0.1 - - [01/Nov/2026 17:53:24] "POST /products/add HTTP/1.1" 200 -
+2026-11-01 17:53:24,818 - INFO - 127.0.0.1 - - [01/Nov/2026 17:53:24] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:53:54,457 - INFO - 127.0.0.1 - - [01/Nov/2026 17:53:54] "POST /products/add HTTP/1.1" 302 -
+2026-11-01 17:53:54,465 - INFO - 127.0.0.1 - - [01/Nov/2026 17:53:54] "GET /products/ HTTP/1.1" 200 -
+2026-11-01 17:53:54,506 - INFO - 127.0.0.1 - - [01/Nov/2026 17:53:54] "GET /static/uploads/feddfc4b-7f5a-46db-805d-f009afa302e0.jpg HTTP/1.1" 404 -
+2026-11-01 17:53:54,506 - INFO - 127.0.0.1 - - [01/Nov/2026 17:53:54] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:53:56,641 - INFO - 127.0.0.1 - - [01/Nov/2026 17:53:56] "GET /products/1 HTTP/1.1" 200 -
+2026-11-01 17:53:56,669 - INFO - 127.0.0.1 - - [01/Nov/2026 17:53:56] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:58:16,764 - INFO - WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-11-01 17:58:16,764 - INFO - Press CTRL+C to quit
+2026-11-01 17:58:16,764 - INFO -  * Restarting with stat
+2026-11-01 17:58:17,028 - WARNING -  * Debugger is active!
+2026-11-01 17:58:17,030 - INFO -  * Debugger PIN: 111-119-912
+2026-11-01 17:58:19,719 - INFO - 127.0.0.1 - - [01/Nov/2026 17:58:19] "GET /products/ HTTP/1.1" 200 -
+2026-11-01 17:58:19,748 - INFO - 127.0.0.1 - - [01/Nov/2026 17:58:19] "GET /static/uploads/feddfc4b-7f5a-46db-805d-f009afa302e0.jpg HTTP/1.1" 404 -
+2026-11-01 17:58:19,788 - INFO - 127.0.0.1 - - [01/Nov/2026 17:58:19] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:58:20,047 - INFO - 127.0.0.1 - - [01/Nov/2026 17:58:20] "GET /products/ HTTP/1.1" 200 -
+2026-11-01 17:58:20,075 - INFO - 127.0.0.1 - - [01/Nov/2026 17:58:20] "GET /static/uploads/feddfc4b-7f5a-46db-805d-f009afa302e0.jpg HTTP/1.1" 404 -
+2026-11-01 17:58:20,075 - INFO - 127.0.0.1 - - [01/Nov/2026 17:58:20] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:58:20,196 - INFO - 127.0.0.1 - - [01/Nov/2026 17:58:20] "GET /products/ HTTP/1.1" 200 -
+2026-11-01 17:58:20,230 - INFO - 127.0.0.1 - - [01/Nov/2026 17:58:20] "GET /static/uploads/feddfc4b-7f5a-46db-805d-f009afa302e0.jpg HTTP/1.1" 404 -
+2026-11-01 17:58:20,230 - INFO - 127.0.0.1 - - [01/Nov/2026 17:58:20] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:58:21,551 - INFO - 127.0.0.1 - - [01/Nov/2026 17:58:21] "GET /products/1 HTTP/1.1" 200 -
+2026-11-01 17:58:21,575 - INFO - 127.0.0.1 - - [01/Nov/2026 17:58:21] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:58:23,281 - INFO - 127.0.0.1 - - [01/Nov/2026 17:58:23] "GET /products/ HTTP/1.1" 200 -
+2026-11-01 17:58:23,312 - INFO - 127.0.0.1 - - [01/Nov/2026 17:58:23] "GET /static/uploads/feddfc4b-7f5a-46db-805d-f009afa302e0.jpg HTTP/1.1" 404 -
+2026-11-01 17:58:23,312 - INFO - 127.0.0.1 - - [01/Nov/2026 17:58:23] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:58:23,973 - INFO - 127.0.0.1 - - [01/Nov/2026 17:58:23] "GET /products/1/edit HTTP/1.1" 200 -
+2026-11-01 17:58:24,001 - INFO - 127.0.0.1 - - [01/Nov/2026 17:58:24] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:58:27,682 - INFO - 127.0.0.1 - - [01/Nov/2026 17:58:27] "POST /products/1/edit HTTP/1.1" 302 -
+2026-11-01 17:58:27,686 - INFO - 127.0.0.1 - - [01/Nov/2026 17:58:27] "GET /products/1 HTTP/1.1" 200 -
+2026-11-01 17:58:27,724 - INFO - 127.0.0.1 - - [01/Nov/2026 17:58:27] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:58:28,737 - INFO - 127.0.0.1 - - [01/Nov/2026 17:58:28] "GET /products/ HTTP/1.1" 200 -
+2026-11-01 17:58:28,764 - INFO - 127.0.0.1 - - [01/Nov/2026 17:58:28] "GET /static/uploads/44983633-4b6c-417c-9589-ba1a2f4adac5.jpg HTTP/1.1" 404 -
+2026-11-01 17:58:28,764 - INFO - 127.0.0.1 - - [01/Nov/2026 17:58:28] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:58:30,377 - INFO - 127.0.0.1 - - [01/Nov/2026 17:58:30] "GET /products/1 HTTP/1.1" 200 -
+2026-11-01 17:58:30,408 - INFO - 127.0.0.1 - - [01/Nov/2026 17:58:30] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:58:31,224 - INFO - 127.0.0.1 - - [01/Nov/2026 17:58:31] "GET /products/ HTTP/1.1" 200 -
+2026-11-01 17:58:31,250 - INFO - 127.0.0.1 - - [01/Nov/2026 17:58:31] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:58:31,255 - INFO - 127.0.0.1 - - [01/Nov/2026 17:58:31] "GET /static/uploads/44983633-4b6c-417c-9589-ba1a2f4adac5.jpg HTTP/1.1" 404 -
+2026-11-01 17:58:34,473 - INFO - 127.0.0.1 - - [01/Nov/2026 17:58:34] "POST /products/1/delete HTTP/1.1" 302 -
+2026-11-01 17:58:34,477 - INFO - 127.0.0.1 - - [01/Nov/2026 17:58:34] "GET /products/ HTTP/1.1" 200 -
+2026-11-01 17:58:34,522 - INFO - 127.0.0.1 - - [01/Nov/2026 17:58:34] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:58:35,084 - INFO - 127.0.0.1 - - [01/Nov/2026 17:58:35] "GET /products/add HTTP/1.1" 200 -
+2026-11-01 17:58:35,114 - INFO - 127.0.0.1 - - [01/Nov/2026 17:58:35] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:58:53,095 - INFO - 127.0.0.1 - - [01/Nov/2026 17:58:53] "POST /products/add HTTP/1.1" 302 -
+2026-11-01 17:58:53,099 - INFO - 127.0.0.1 - - [01/Nov/2026 17:58:53] "GET /products/ HTTP/1.1" 200 -
+2026-11-01 17:58:53,140 - INFO - 127.0.0.1 - - [01/Nov/2026 17:58:53] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:58:53,141 - INFO - 127.0.0.1 - - [01/Nov/2026 17:58:53] "GET /static/uploads/a5158e2c-a344-4cc6-8a4a-9e158cc8b36c.jpg HTTP/1.1" 404 -
+2026-11-01 17:59:21,948 - INFO - 127.0.0.1 - - [01/Nov/2026 17:59:21] "GET /products/1/edit HTTP/1.1" 200 -
+2026-11-01 17:59:21,975 - INFO - 127.0.0.1 - - [01/Nov/2026 17:59:21] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 17:59:22,643 - INFO - 127.0.0.1 - - [01/Nov/2026 17:59:22] "POST /products/1/edit HTTP/1.1" 500 -
+2026-11-01 17:59:22,679 - INFO - 127.0.0.1 - - [01/Nov/2026 17:59:22] "GET /products/1/edit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-11-01 17:59:22,680 - INFO - 127.0.0.1 - - [01/Nov/2026 17:59:22] "GET /products/1/edit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-11-01 17:59:22,690 - INFO - 127.0.0.1 - - [01/Nov/2026 17:59:22] "GET /products/1/edit?__debugger__=yes&cmd=resource&f=console.png&s=poiEyGVDJbUThybtdRtS HTTP/1.1" 200 -
+2026-11-01 17:59:22,807 - INFO - 127.0.0.1 - - [01/Nov/2026 17:59:22] "GET /products/1/edit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-11-01 17:59:28,215 - INFO - 127.0.0.1 - - [01/Nov/2026 17:59:28] "POST /products/1/edit HTTP/1.1" 500 -
+2026-11-01 17:59:28,243 - INFO - 127.0.0.1 - - [01/Nov/2026 17:59:28] "GET /products/1/edit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 304 -
+2026-11-01 17:59:28,244 - INFO - 127.0.0.1 - - [01/Nov/2026 17:59:28] "GET /products/1/edit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 304 -
+2026-11-01 17:59:28,256 - INFO - 127.0.0.1 - - [01/Nov/2026 17:59:28] "GET /products/1/edit?__debugger__=yes&cmd=resource&f=console.png&s=poiEyGVDJbUThybtdRtS HTTP/1.1" 304 -
+2026-11-01 17:59:28,276 - INFO - 127.0.0.1 - - [01/Nov/2026 17:59:28] "GET /products/1/edit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+2026-11-01 18:01:49,987 - INFO -  * Detected change in 'D:\\PNU2\\rik3\\1_sem\\Python\\flask_app_Zomchak\\app\\products\\views.py', reloading
+2026-11-01 18:01:50,017 - INFO -  * Restarting with stat
+2026-11-01 18:01:50,328 - WARNING -  * Debugger is active!
+2026-11-01 18:01:50,331 - INFO -  * Debugger PIN: 111-119-912
+2026-11-01 18:02:19,482 - INFO -  * Detected change in 'D:\\PNU2\\rik3\\1_sem\\Python\\flask_app_Zomchak\\app\\products\\views.py', reloading
+2026-11-01 18:02:19,510 - INFO -  * Restarting with stat
+2026-11-01 18:02:19,757 - WARNING -  * Debugger is active!
+2026-11-01 18:02:19,759 - INFO -  * Debugger PIN: 111-119-912
+2026-11-01 18:02:30,697 - INFO - WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-11-01 18:02:30,697 - INFO - Press CTRL+C to quit
+2026-11-01 18:02:30,698 - INFO -  * Restarting with stat
+2026-11-01 18:02:30,935 - WARNING -  * Debugger is active!
+2026-11-01 18:02:30,937 - INFO -  * Debugger PIN: 111-119-912
+2026-11-01 18:02:34,486 - INFO - 127.0.0.1 - - [01/Nov/2026 18:02:34] "POST /products/1/edit HTTP/1.1" 302 -
+2026-11-01 18:02:34,497 - INFO - 127.0.0.1 - - [01/Nov/2026 18:02:34] "GET /products/1 HTTP/1.1" 200 -
+2026-11-01 18:02:34,569 - INFO - 127.0.0.1 - - [01/Nov/2026 18:02:34] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 18:02:35,587 - INFO - 127.0.0.1 - - [01/Nov/2026 18:02:35] "GET /products/ HTTP/1.1" 200 -
+2026-11-01 18:02:35,621 - INFO - 127.0.0.1 - - [01/Nov/2026 18:02:35] "GET /static/uploads/a5158e2c-a344-4cc6-8a4a-9e158cc8b36c.jpg HTTP/1.1" 404 -
+2026-11-01 18:02:35,621 - INFO - 127.0.0.1 - - [01/Nov/2026 18:02:35] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 18:02:37,746 - INFO - 127.0.0.1 - - [01/Nov/2026 18:02:37] "POST /products/1/delete HTTP/1.1" 302 -
+2026-11-01 18:02:37,749 - INFO - 127.0.0.1 - - [01/Nov/2026 18:02:37] "GET /products/ HTTP/1.1" 200 -
+2026-11-01 18:02:37,795 - INFO - 127.0.0.1 - - [01/Nov/2026 18:02:37] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 18:02:38,394 - INFO - 127.0.0.1 - - [01/Nov/2026 18:02:38] "GET /products/add HTTP/1.1" 200 -
+2026-11-01 18:02:38,421 - INFO - 127.0.0.1 - - [01/Nov/2026 18:02:38] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 18:02:55,964 - INFO - 127.0.0.1 - - [01/Nov/2026 18:02:55] "POST /products/add HTTP/1.1" 302 -
+2026-11-01 18:02:55,968 - INFO - 127.0.0.1 - - [01/Nov/2026 18:02:55] "GET /products/ HTTP/1.1" 200 -
+2026-11-01 18:02:56,004 - INFO - 127.0.0.1 - - [01/Nov/2026 18:02:56] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 18:02:56,005 - INFO - 127.0.0.1 - - [01/Nov/2026 18:02:56] "GET /static/uploads/e3b357ee-b51b-490c-864e-32c7c15ecf44.jpg HTTP/1.1" 200 -
+2026-11-01 18:08:10,353 - INFO - WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-11-01 18:08:10,353 - INFO - Press CTRL+C to quit
+2026-11-01 18:08:10,354 - INFO -  * Restarting with stat
+2026-11-01 18:08:10,606 - WARNING -  * Debugger is active!
+2026-11-01 18:08:10,608 - INFO -  * Debugger PIN: 111-119-912
+2026-11-01 18:08:13,039 - INFO - 127.0.0.1 - - [01/Nov/2026 18:08:13] "GET /products/ HTTP/1.1" 200 -
+2026-11-01 18:08:13,120 - INFO - 127.0.0.1 - - [01/Nov/2026 18:08:13] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 18:08:13,123 - INFO - 127.0.0.1 - - [01/Nov/2026 18:08:13] "GET /static/uploads/e3b357ee-b51b-490c-864e-32c7c15ecf44.jpg HTTP/1.1" 304 -
+2026-11-01 18:08:15,449 - INFO - 127.0.0.1 - - [01/Nov/2026 18:08:15] "GET /products/1 HTTP/1.1" 200 -
+2026-11-01 18:08:15,477 - INFO - 127.0.0.1 - - [01/Nov/2026 18:08:15] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 18:08:20,877 - INFO - 127.0.0.1 - - [01/Nov/2026 18:08:20] "GET /products/ HTTP/1.1" 200 -
+2026-11-01 18:08:20,906 - INFO - 127.0.0.1 - - [01/Nov/2026 18:08:20] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 18:08:20,906 - INFO - 127.0.0.1 - - [01/Nov/2026 18:08:20] "GET /static/uploads/e3b357ee-b51b-490c-864e-32c7c15ecf44.jpg HTTP/1.1" 304 -
+2026-11-01 18:08:23,209 - INFO - 127.0.0.1 - - [01/Nov/2026 18:08:23] "GET /products/1 HTTP/1.1" 200 -
+2026-11-01 18:08:23,235 - INFO - 127.0.0.1 - - [01/Nov/2026 18:08:23] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 18:09:17,157 - INFO - 127.0.0.1 - - [01/Nov/2026 18:09:17] "GET /products/ HTTP/1.1" 200 -
+2026-11-01 18:09:17,184 - INFO - 127.0.0.1 - - [01/Nov/2026 18:09:17] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 18:09:17,188 - INFO - 127.0.0.1 - - [01/Nov/2026 18:09:17] "GET /static/uploads/e3b357ee-b51b-490c-864e-32c7c15ecf44.jpg HTTP/1.1" 304 -
+2026-11-01 18:09:36,074 - INFO - WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+2026-11-01 18:09:36,074 - INFO - Press CTRL+C to quit
+2026-11-01 18:09:36,074 - INFO -  * Restarting with stat
+2026-11-01 18:09:36,310 - WARNING -  * Debugger is active!
+2026-11-01 18:09:36,313 - INFO -  * Debugger PIN: 111-119-912
+2026-11-01 18:09:38,035 - INFO - 127.0.0.1 - - [01/Nov/2026 18:09:38] "GET /products/ HTTP/1.1" 200 -
+2026-11-01 18:09:38,117 - INFO - 127.0.0.1 - - [01/Nov/2026 18:09:38] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 18:09:38,120 - INFO - 127.0.0.1 - - [01/Nov/2026 18:09:38] "GET /static/uploads/e3b357ee-b51b-490c-864e-32c7c15ecf44.jpg HTTP/1.1" 304 -
+2026-11-01 18:09:38,960 - INFO - 127.0.0.1 - - [01/Nov/2026 18:09:38] "GET /products/1 HTTP/1.1" 200 -
+2026-11-01 18:09:38,987 - INFO - 127.0.0.1 - - [01/Nov/2026 18:09:38] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 18:09:38,989 - INFO - 127.0.0.1 - - [01/Nov/2026 18:09:38] "GET /static/uploads/e3b357ee-b51b-490c-864e-32c7c15ecf44.jpg HTTP/1.1" 304 -
+2026-11-01 18:09:41,534 - INFO - 127.0.0.1 - - [01/Nov/2026 18:09:41] "GET /products/1/edit HTTP/1.1" 200 -
+2026-11-01 18:09:41,561 - INFO - 127.0.0.1 - - [01/Nov/2026 18:09:41] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 18:09:42,491 - INFO - 127.0.0.1 - - [01/Nov/2026 18:09:42] "GET /products/1 HTTP/1.1" 200 -
+2026-11-01 18:09:42,521 - INFO - 127.0.0.1 - - [01/Nov/2026 18:09:42] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 18:09:42,522 - INFO - 127.0.0.1 - - [01/Nov/2026 18:09:42] "GET /static/uploads/e3b357ee-b51b-490c-864e-32c7c15ecf44.jpg HTTP/1.1" 304 -
+2026-11-01 18:09:44,468 - INFO - 127.0.0.1 - - [01/Nov/2026 18:09:44] "GET /products/ HTTP/1.1" 200 -
+2026-11-01 18:09:44,500 - INFO - 127.0.0.1 - - [01/Nov/2026 18:09:44] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 18:09:44,501 - INFO - 127.0.0.1 - - [01/Nov/2026 18:09:44] "GET /static/uploads/e3b357ee-b51b-490c-864e-32c7c15ecf44.jpg HTTP/1.1" 304 -
+2026-11-01 18:10:02,772 - INFO - 127.0.0.1 - - [01/Nov/2026 18:10:02] "GET /products/1/edit HTTP/1.1" 200 -
+2026-11-01 18:10:02,800 - INFO - 127.0.0.1 - - [01/Nov/2026 18:10:02] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 18:10:04,925 - INFO - 127.0.0.1 - - [01/Nov/2026 18:10:04] "GET /products/1 HTTP/1.1" 200 -
+2026-11-01 18:10:04,955 - INFO - 127.0.0.1 - - [01/Nov/2026 18:10:04] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-01 18:10:04,957 - INFO - 127.0.0.1 - - [01/Nov/2026 18:10:04] "GET /static/uploads/e3b357ee-b51b-490c-864e-32c7c15ecf44.jpg HTTP/1.1" 304 -
+2026-11-01 18:10:14,046 - INFO - 127.0.0.1 - - [01/Nov/2026 18:10:14] "GET /products/1/edit HTTP/1.1" 200 -
+2026-11-01 18:10:14,073 - INFO - 127.0.0.1 - - [01/Nov/2026 18:10:14] "GET /static/css/styles.css HTTP/1.1" 304 -
