@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% from "_render_field.html" import render_field %}
+
+{% block content %}
+<div class="container mt-4" style="max-width: 600px;">
+    <h2 class="mb-4">Зворотний зв'язок (Контакти)</h2>
+
+    
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            {% for category, message in messages %}
+                <div class="alert alert-{{ 'success' if category == 'success' else 'danger' }} alert-dismissible fade show" role="alert">
+                    {{ message }}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+
+    <form method="POST" novalidate>
+         
+        {{ form.hidden_tag() }}
+
+        {{ render_field(form.name, placeholder="Введіть ім'я (від 4 до 10 символів)") }}
+        {{ render_field(form.email, placeholder="example@gmail.com") }}
+        {{ render_field(form.phone, placeholder="+380XXXXXXXXX") }}
+        {{ render_field(form.subject) }}
+        {{ render_field(form.message, placeholder="Введіть повідомлення (до 500 символів)") }}
+
+        <div class="mb-3">
+            {{ form.submit(class="btn btn-dark w-100") }}
+        </div>
+    </form>
+</div>
+{% endblock %}
