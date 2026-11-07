@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container mt-4">
+    <h2>{{ title|default("Створити новий пост") }}</h2>
+    
+    <form method="POST" class="mt-3">
+        {{ form.hidden_tag() }}
+        
+        <div class="mb-3">
+            {{ form.title.label(class="form-label") }}
+            {{ form.title(class="form-control") }}
+            {% for error in form.title.errors %}
+                <div class="text-danger">{{ error }}</div>
+            {% endfor %}
+        </div>
+
+        <div class="mb-3">
+            {{ form.content.label(class="form-label") }}
+            {{ form.content(class="form-control") }}
+            {% for error in form.content.errors %}
+                <div class="text-danger">{{ error }}</div>
+            {% endfor %}
+        </div>
+
+        <div class="mb-3 form-check">
+            {{ form.is_active(class="form-check-input") }}
+            {{ form.is_active.label(class="form-check-label") }}
+        </div>
+
+        <div class="mb-3">
+            {{ form.publish_date.label(class="form-label") }}
+            {{ form.publish_date(class="form-control") }}
+        </div>
+
+        <div class="mb-3">
+            {{ form.category.label(class="form-label") }}
+            {{ form.category(class="form-select") }}
+        </div>
+
+        {{ form.submit(class="btn btn-success") }}
+        <a href="{{ url_for('posts.get_posts') }}" class="btn btn-secondary">Скасувати</a>
+    </form>
+</div>
+{% endblock %}

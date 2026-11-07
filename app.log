@@ -546,3 +546,230 @@
 2026-11-01 18:40:44,694 - INFO - 127.0.0.1 - - [01/Nov/2026 18:40:44] "POST /contact HTTP/1.1" 302 -
 2026-11-01 18:40:44,700 - INFO - 127.0.0.1 - - [01/Nov/2026 18:40:44] "GET /contact HTTP/1.1" 200 -
 2026-11-01 18:40:44,737 - INFO - 127.0.0.1 - - [01/Nov/2026 18:40:44] "GET /static/css/styles.css HTTP/1.1" 304 -
+2026-11-07 18:21:38,069 - ERROR - Error: Path doesn't exist: migrations.  Please use the 'init' command to create a new scripts folder.
+2026-11-07 18:21:58,784 - ERROR - Error: Path doesn't exist: migrations.  Please use the 'init' command to create a new scripts folder.
+2026-11-07 19:22:29,688 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2026-11-07 19:22:29,688 - INFO - [33mPress CTRL+C to quit[0m
+2026-11-07 19:23:40,642 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-11-07 19:23:40,642 - INFO - [33mPress CTRL+C to quit[0m
+2026-11-07 19:23:40,643 - INFO -  * Restarting with stat
+2026-11-07 19:23:41,322 - WARNING -  * Debugger is active!
+2026-11-07 19:23:41,326 - INFO -  * Debugger PIN: 111-119-912
+2026-11-07 19:24:52,483 - INFO - 127.0.0.1 - - [07/Nov/2026 19:24:52] "GET / HTTP/1.1" 200 -
+2026-11-07 19:24:52,586 - INFO - 127.0.0.1 - - [07/Nov/2026 19:24:52] "GET /static/css/styles.css HTTP/1.1" 200 -
+2026-11-07 19:24:52,586 - INFO - 127.0.0.1 - - [07/Nov/2026 19:24:52] "GET /static/images/photo.jpg HTTP/1.1" 200 -
+2026-11-07 19:24:52,645 - INFO - 127.0.0.1 - - [07/Nov/2026 19:24:52] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-11-07 19:24:53,878 - INFO - 127.0.0.1 - - [07/Nov/2026 19:24:53] "GET / HTTP/1.1" 200 -
+2026-11-07 19:24:53,914 - INFO - 127.0.0.1 - - [07/Nov/2026 19:24:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 19:24:53,916 - INFO - 127.0.0.1 - - [07/Nov/2026 19:24:53] "[36mGET /static/images/photo.jpg HTTP/1.1[0m" 304 -
+2026-11-07 19:24:53,940 - INFO - 127.0.0.1 - - [07/Nov/2026 19:24:53] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-11-07 19:24:54,591 - INFO - 127.0.0.1 - - [07/Nov/2026 19:24:54] "GET /products/ HTTP/1.1" 200 -
+2026-11-07 19:24:54,616 - INFO - 127.0.0.1 - - [07/Nov/2026 19:24:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 19:24:54,649 - INFO - 127.0.0.1 - - [07/Nov/2026 19:24:54] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-11-07 19:24:55,045 - INFO - 127.0.0.1 - - [07/Nov/2026 19:24:55] "GET /users/hi/John?age=30 HTTP/1.1" 200 -
+2026-11-07 19:24:55,071 - INFO - 127.0.0.1 - - [07/Nov/2026 19:24:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 19:24:55,109 - INFO - 127.0.0.1 - - [07/Nov/2026 19:24:55] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-11-07 19:24:55,577 - INFO - 127.0.0.1 - - [07/Nov/2026 19:24:55] "GET /contact HTTP/1.1" 200 -
+2026-11-07 19:24:55,603 - INFO - 127.0.0.1 - - [07/Nov/2026 19:24:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 19:24:55,638 - INFO - 127.0.0.1 - - [07/Nov/2026 19:24:55] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-11-07 19:24:55,983 - INFO - 127.0.0.1 - - [07/Nov/2026 19:24:55] "GET /users/hi/John?age=30 HTTP/1.1" 200 -
+2026-11-07 19:24:56,009 - INFO - 127.0.0.1 - - [07/Nov/2026 19:24:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 19:24:56,041 - INFO - 127.0.0.1 - - [07/Nov/2026 19:24:56] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-11-07 19:24:56,339 - INFO - 127.0.0.1 - - [07/Nov/2026 19:24:56] "GET /products/ HTTP/1.1" 200 -
+2026-11-07 19:24:56,366 - INFO - 127.0.0.1 - - [07/Nov/2026 19:24:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 19:24:56,401 - INFO - 127.0.0.1 - - [07/Nov/2026 19:24:56] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-11-07 19:24:56,988 - INFO - 127.0.0.1 - - [07/Nov/2026 19:24:56] "GET /products/add HTTP/1.1" 200 -
+2026-11-07 19:24:57,015 - INFO - 127.0.0.1 - - [07/Nov/2026 19:24:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 19:24:57,054 - INFO - 127.0.0.1 - - [07/Nov/2026 19:24:57] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-11-07 19:24:58,201 - INFO - 127.0.0.1 - - [07/Nov/2026 19:24:58] "GET /contact HTTP/1.1" 200 -
+2026-11-07 19:24:58,238 - INFO - 127.0.0.1 - - [07/Nov/2026 19:24:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 19:24:58,270 - INFO - 127.0.0.1 - - [07/Nov/2026 19:24:58] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-11-07 19:24:59,246 - INFO - 127.0.0.1 - - [07/Nov/2026 19:24:59] "GET /users/hi/John?age=30 HTTP/1.1" 200 -
+2026-11-07 19:24:59,274 - INFO - 127.0.0.1 - - [07/Nov/2026 19:24:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 19:24:59,313 - INFO - 127.0.0.1 - - [07/Nov/2026 19:24:59] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-11-07 19:24:59,735 - INFO - 127.0.0.1 - - [07/Nov/2026 19:24:59] "GET /products/ HTTP/1.1" 200 -
+2026-11-07 19:24:59,761 - INFO - 127.0.0.1 - - [07/Nov/2026 19:24:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 19:24:59,799 - INFO - 127.0.0.1 - - [07/Nov/2026 19:24:59] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-11-07 19:25:00,499 - INFO - 127.0.0.1 - - [07/Nov/2026 19:25:00] "GET / HTTP/1.1" 200 -
+2026-11-07 19:25:00,527 - INFO - 127.0.0.1 - - [07/Nov/2026 19:25:00] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 19:25:00,536 - INFO - 127.0.0.1 - - [07/Nov/2026 19:25:00] "[36mGET /static/images/photo.jpg HTTP/1.1[0m" 304 -
+2026-11-07 19:25:00,568 - INFO - 127.0.0.1 - - [07/Nov/2026 19:25:00] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-11-07 19:25:00,997 - INFO - 127.0.0.1 - - [07/Nov/2026 19:25:00] "GET /homepage HTTP/1.1" 200 -
+2026-11-07 19:25:01,027 - INFO - 127.0.0.1 - - [07/Nov/2026 19:25:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 19:25:01,055 - INFO - 127.0.0.1 - - [07/Nov/2026 19:25:01] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-11-07 19:48:44,230 - INFO - 127.0.0.1 - - [07/Nov/2026 19:48:44] "[35m[1mGET /post/ HTTP/1.1[0m" 500 -
+2026-11-07 19:48:44,252 - INFO - 127.0.0.1 - - [07/Nov/2026 19:48:44] "GET /post/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-11-07 19:48:44,260 - INFO - 127.0.0.1 - - [07/Nov/2026 19:48:44] "GET /post/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-11-07 19:48:44,295 - INFO - 127.0.0.1 - - [07/Nov/2026 19:48:44] "GET /post/?__debugger__=yes&cmd=resource&f=console.png&s=yLp5wOjleCUcMCTwipPj HTTP/1.1" 200 -
+2026-11-07 19:48:44,311 - INFO - 127.0.0.1 - - [07/Nov/2026 19:48:44] "GET /post/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-11-07 19:48:53,909 - INFO - 127.0.0.1 - - [07/Nov/2026 19:48:53] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-11-07 19:50:49,387 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2026-11-07 19:50:49,387 - INFO - [33mPress CTRL+C to quit[0m
+2026-11-07 19:51:20,100 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-11-07 19:51:20,100 - INFO - [33mPress CTRL+C to quit[0m
+2026-11-07 19:51:20,101 - INFO -  * Restarting with stat
+2026-11-07 19:51:20,720 - WARNING -  * Debugger is active!
+2026-11-07 19:51:20,724 - INFO -  * Debugger PIN: 111-119-912
+2026-11-07 19:51:22,079 - INFO - 127.0.0.1 - - [07/Nov/2026 19:51:22] "GET / HTTP/1.1" 200 -
+2026-11-07 19:51:22,171 - INFO - 127.0.0.1 - - [07/Nov/2026 19:51:22] "[36mGET /static/images/photo.jpg HTTP/1.1[0m" 304 -
+2026-11-07 19:51:22,171 - INFO - 127.0.0.1 - - [07/Nov/2026 19:51:22] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 19:51:22,196 - INFO - 127.0.0.1 - - [07/Nov/2026 19:51:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-11-07 19:51:24,369 - INFO - 127.0.0.1 - - [07/Nov/2026 19:51:24] "[33mGET /post/ HTTP/1.1[0m" 404 -
+2026-11-07 19:51:26,858 - INFO - 127.0.0.1 - - [07/Nov/2026 19:51:26] "GET / HTTP/1.1" 200 -
+2026-11-07 19:51:26,897 - INFO - 127.0.0.1 - - [07/Nov/2026 19:51:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 19:51:26,899 - INFO - 127.0.0.1 - - [07/Nov/2026 19:51:26] "[36mGET /static/images/photo.jpg HTTP/1.1[0m" 304 -
+2026-11-07 19:51:28,299 - INFO - 127.0.0.1 - - [07/Nov/2026 19:51:28] "[33mGET /post/ HTTP/1.1[0m" 404 -
+2026-11-07 19:51:31,842 - INFO - 127.0.0.1 - - [07/Nov/2026 19:51:31] "[33mGET /post HTTP/1.1[0m" 404 -
+2026-11-07 19:54:15,064 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:15] "GET /products/ HTTP/1.1" 200 -
+2026-11-07 19:54:15,097 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:15] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 19:54:15,510 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:15] "GET /contact HTTP/1.1" 200 -
+2026-11-07 19:54:15,544 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:15] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 19:54:50,961 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:50] "GET /contact HTTP/1.1" 200 -
+2026-11-07 19:54:50,985 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 19:54:52,583 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:52] "GET / HTTP/1.1" 200 -
+2026-11-07 19:54:52,614 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 19:54:52,617 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:52] "[36mGET /static/images/photo.jpg HTTP/1.1[0m" 304 -
+2026-11-07 19:54:53,726 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:53] "GET / HTTP/1.1" 200 -
+2026-11-07 19:54:53,758 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 19:54:53,759 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:53] "[36mGET /static/images/photo.jpg HTTP/1.1[0m" 304 -
+2026-11-07 19:54:54,231 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:54] "GET /contact HTTP/1.1" 200 -
+2026-11-07 19:54:54,255 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 19:54:54,661 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:54] "GET /users/hi/John?age=30 HTTP/1.1" 200 -
+2026-11-07 19:54:54,680 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 19:54:55,107 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:55] "GET /products/ HTTP/1.1" 200 -
+2026-11-07 19:54:55,133 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 19:54:55,554 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:55] "GET / HTTP/1.1" 200 -
+2026-11-07 19:54:55,581 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 19:54:55,588 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:55] "[36mGET /static/images/photo.jpg HTTP/1.1[0m" 304 -
+2026-11-07 19:54:56,019 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:56] "GET /homepage HTTP/1.1" 200 -
+2026-11-07 19:54:56,044 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 19:54:56,501 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:56] "GET / HTTP/1.1" 200 -
+2026-11-07 19:54:56,527 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 19:54:56,533 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:56] "[36mGET /static/images/photo.jpg HTTP/1.1[0m" 304 -
+2026-11-07 19:54:57,816 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:57] "GET / HTTP/1.1" 200 -
+2026-11-07 19:54:57,850 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 19:54:57,852 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:57] "[36mGET /static/images/photo.jpg HTTP/1.1[0m" 304 -
+2026-11-07 19:54:58,328 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:58] "GET / HTTP/1.1" 200 -
+2026-11-07 19:54:58,362 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 19:54:58,363 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:58] "[36mGET /static/images/photo.jpg HTTP/1.1[0m" 304 -
+2026-11-07 19:54:58,976 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:58] "GET / HTTP/1.1" 200 -
+2026-11-07 19:54:59,011 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 19:54:59,012 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:59] "[36mGET /static/images/photo.jpg HTTP/1.1[0m" 304 -
+2026-11-07 19:54:59,181 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:59] "GET / HTTP/1.1" 200 -
+2026-11-07 19:54:59,209 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 19:54:59,217 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:59] "[36mGET /static/images/photo.jpg HTTP/1.1[0m" 304 -
+2026-11-07 19:54:59,344 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:59] "GET / HTTP/1.1" 200 -
+2026-11-07 19:54:59,384 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 19:54:59,385 - INFO - 127.0.0.1 - - [07/Nov/2026 19:54:59] "[36mGET /static/images/photo.jpg HTTP/1.1[0m" 304 -
+2026-11-07 19:55:56,295 - INFO - 127.0.0.1 - - [07/Nov/2026 19:55:56] "GET / HTTP/1.1" 200 -
+2026-11-07 19:55:56,325 - INFO - 127.0.0.1 - - [07/Nov/2026 19:55:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 19:55:56,326 - INFO - 127.0.0.1 - - [07/Nov/2026 19:55:56] "[36mGET /static/images/photo.jpg HTTP/1.1[0m" 304 -
+2026-11-07 19:55:57,072 - INFO - 127.0.0.1 - - [07/Nov/2026 19:55:57] "GET / HTTP/1.1" 200 -
+2026-11-07 19:55:57,106 - INFO - 127.0.0.1 - - [07/Nov/2026 19:55:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 19:55:57,107 - INFO - 127.0.0.1 - - [07/Nov/2026 19:55:57] "[36mGET /static/images/photo.jpg HTTP/1.1[0m" 304 -
+2026-11-07 19:55:57,704 - INFO - 127.0.0.1 - - [07/Nov/2026 19:55:57] "GET / HTTP/1.1" 200 -
+2026-11-07 19:55:57,733 - INFO - 127.0.0.1 - - [07/Nov/2026 19:55:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 19:55:57,733 - INFO - 127.0.0.1 - - [07/Nov/2026 19:55:57] "[36mGET /static/images/photo.jpg HTTP/1.1[0m" 304 -
+2026-11-07 19:55:57,863 - INFO - 127.0.0.1 - - [07/Nov/2026 19:55:57] "GET / HTTP/1.1" 200 -
+2026-11-07 19:55:57,897 - INFO - 127.0.0.1 - - [07/Nov/2026 19:55:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 19:55:57,898 - INFO - 127.0.0.1 - - [07/Nov/2026 19:55:57] "[36mGET /static/images/photo.jpg HTTP/1.1[0m" 304 -
+2026-11-07 19:55:58,681 - INFO - 127.0.0.1 - - [07/Nov/2026 19:55:58] "GET / HTTP/1.1" 200 -
+2026-11-07 19:55:58,706 - INFO - 127.0.0.1 - - [07/Nov/2026 19:55:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 19:55:58,711 - INFO - 127.0.0.1 - - [07/Nov/2026 19:55:58] "[36mGET /static/images/photo.jpg HTTP/1.1[0m" 304 -
+2026-11-07 19:55:58,820 - INFO - 127.0.0.1 - - [07/Nov/2026 19:55:58] "GET / HTTP/1.1" 200 -
+2026-11-07 19:55:58,849 - INFO - 127.0.0.1 - - [07/Nov/2026 19:55:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 19:55:58,850 - INFO - 127.0.0.1 - - [07/Nov/2026 19:55:58] "[36mGET /static/images/photo.jpg HTTP/1.1[0m" 304 -
+2026-11-07 19:55:58,994 - INFO - 127.0.0.1 - - [07/Nov/2026 19:55:58] "GET / HTTP/1.1" 200 -
+2026-11-07 19:55:59,029 - INFO - 127.0.0.1 - - [07/Nov/2026 19:55:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 19:55:59,031 - INFO - 127.0.0.1 - - [07/Nov/2026 19:55:59] "[36mGET /static/images/photo.jpg HTTP/1.1[0m" 304 -
+2026-11-07 19:55:59,682 - INFO - 127.0.0.1 - - [07/Nov/2026 19:55:59] "GET / HTTP/1.1" 200 -
+2026-11-07 19:55:59,716 - INFO - 127.0.0.1 - - [07/Nov/2026 19:55:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 19:55:59,717 - INFO - 127.0.0.1 - - [07/Nov/2026 19:55:59] "[36mGET /static/images/photo.jpg HTTP/1.1[0m" 304 -
+2026-11-07 19:55:59,839 - INFO - 127.0.0.1 - - [07/Nov/2026 19:55:59] "GET / HTTP/1.1" 200 -
+2026-11-07 19:55:59,875 - INFO - 127.0.0.1 - - [07/Nov/2026 19:55:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 19:55:59,878 - INFO - 127.0.0.1 - - [07/Nov/2026 19:55:59] "[36mGET /static/images/photo.jpg HTTP/1.1[0m" 304 -
+2026-11-07 19:56:31,643 - INFO - 127.0.0.1 - - [07/Nov/2026 19:56:31] "GET /contact HTTP/1.1" 200 -
+2026-11-07 19:56:31,666 - INFO - 127.0.0.1 - - [07/Nov/2026 19:56:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 20:00:58,903 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-11-07 20:00:58,904 - INFO - [33mPress CTRL+C to quit[0m
+2026-11-07 20:00:58,904 - INFO -  * Restarting with stat
+2026-11-07 20:00:59,545 - WARNING -  * Debugger is active!
+2026-11-07 20:00:59,549 - INFO -  * Debugger PIN: 111-119-912
+2026-11-07 20:01:01,673 - INFO - 127.0.0.1 - - [07/Nov/2026 20:01:01] "GET /contact HTTP/1.1" 200 -
+2026-11-07 20:01:01,751 - INFO - 127.0.0.1 - - [07/Nov/2026 20:01:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 20:01:02,728 - INFO - 127.0.0.1 - - [07/Nov/2026 20:01:02] "GET /posts/ HTTP/1.1" 200 -
+2026-11-07 20:01:02,759 - INFO - 127.0.0.1 - - [07/Nov/2026 20:01:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 20:01:03,967 - INFO - 127.0.0.1 - - [07/Nov/2026 20:01:03] "GET /posts/create HTTP/1.1" 200 -
+2026-11-07 20:01:03,991 - INFO - 127.0.0.1 - - [07/Nov/2026 20:01:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 20:01:23,975 - INFO - 127.0.0.1 - - [07/Nov/2026 20:01:23] "[32mPOST /posts/create HTTP/1.1[0m" 302 -
+2026-11-07 20:01:23,981 - INFO - 127.0.0.1 - - [07/Nov/2026 20:01:23] "GET /posts/ HTTP/1.1" 200 -
+2026-11-07 20:01:24,027 - INFO - 127.0.0.1 - - [07/Nov/2026 20:01:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 20:01:27,944 - INFO - 127.0.0.1 - - [07/Nov/2026 20:01:27] "GET /posts/1 HTTP/1.1" 200 -
+2026-11-07 20:01:27,968 - INFO - 127.0.0.1 - - [07/Nov/2026 20:01:27] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 20:06:50,563 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-11-07 20:06:50,563 - INFO - [33mPress CTRL+C to quit[0m
+2026-11-07 20:06:50,564 - INFO -  * Restarting with stat
+2026-11-07 20:06:51,119 - WARNING -  * Debugger is active!
+2026-11-07 20:06:51,122 - INFO -  * Debugger PIN: 111-119-912
+2026-11-07 20:06:55,084 - INFO - 127.0.0.1 - - [07/Nov/2026 20:06:55] "GET /posts/ HTTP/1.1" 200 -
+2026-11-07 20:06:55,117 - INFO - 127.0.0.1 - - [07/Nov/2026 20:06:55] "[33mGET /posts/static/img/default.jpg HTTP/1.1[0m" 404 -
+2026-11-07 20:06:55,181 - INFO - 127.0.0.1 - - [07/Nov/2026 20:06:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 20:06:55,184 - INFO - 127.0.0.1 - - [07/Nov/2026 20:06:55] "GET /posts/static/css/posts.css HTTP/1.1" 200 -
+2026-11-07 20:08:27,801 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-11-07 20:08:27,801 - INFO - [33mPress CTRL+C to quit[0m
+2026-11-07 20:08:27,802 - INFO -  * Restarting with stat
+2026-11-07 20:08:28,389 - WARNING -  * Debugger is active!
+2026-11-07 20:08:28,393 - INFO -  * Debugger PIN: 111-119-912
+2026-11-07 20:08:30,003 - INFO - 127.0.0.1 - - [07/Nov/2026 20:08:30] "GET /posts/ HTTP/1.1" 200 -
+2026-11-07 20:08:30,102 - INFO - 127.0.0.1 - - [07/Nov/2026 20:08:30] "[36mGET /posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2026-11-07 20:08:30,105 - INFO - 127.0.0.1 - - [07/Nov/2026 20:08:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 20:08:30,105 - INFO - 127.0.0.1 - - [07/Nov/2026 20:08:30] "GET /posts/static/img/default.jpg HTTP/1.1" 200 -
+2026-11-07 20:08:31,115 - INFO - 127.0.0.1 - - [07/Nov/2026 20:08:31] "GET /posts/1 HTTP/1.1" 200 -
+2026-11-07 20:08:31,144 - INFO - 127.0.0.1 - - [07/Nov/2026 20:08:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 20:09:37,205 - INFO - 127.0.0.1 - - [07/Nov/2026 20:09:37] "GET /posts/create HTTP/1.1" 200 -
+2026-11-07 20:09:37,227 - INFO - 127.0.0.1 - - [07/Nov/2026 20:09:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 20:11:04,867 - INFO - 127.0.0.1 - - [07/Nov/2026 20:11:04] "GET /posts/ HTTP/1.1" 200 -
+2026-11-07 20:11:04,902 - INFO - 127.0.0.1 - - [07/Nov/2026 20:11:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 20:11:04,906 - INFO - 127.0.0.1 - - [07/Nov/2026 20:11:04] "GET /posts/static/img/default.jpg HTTP/1.1" 200 -
+2026-11-07 20:11:04,906 - INFO - 127.0.0.1 - - [07/Nov/2026 20:11:04] "[36mGET /posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2026-11-07 20:11:10,380 - INFO - 127.0.0.1 - - [07/Nov/2026 20:11:10] "GET /posts/create HTTP/1.1" 200 -
+2026-11-07 20:11:10,405 - INFO - 127.0.0.1 - - [07/Nov/2026 20:11:10] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 20:11:53,221 - INFO - 127.0.0.1 - - [07/Nov/2026 20:11:53] "[32mPOST /posts/create HTTP/1.1[0m" 302 -
+2026-11-07 20:11:53,226 - INFO - 127.0.0.1 - - [07/Nov/2026 20:11:53] "GET /posts/ HTTP/1.1" 200 -
+2026-11-07 20:11:53,278 - INFO - 127.0.0.1 - - [07/Nov/2026 20:11:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 20:11:53,279 - INFO - 127.0.0.1 - - [07/Nov/2026 20:11:53] "[36mGET /posts/static/img/default.jpg HTTP/1.1[0m" 304 -
+2026-11-07 20:11:53,279 - INFO - 127.0.0.1 - - [07/Nov/2026 20:11:53] "[36mGET /posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2026-11-07 20:12:29,990 - INFO - 127.0.0.1 - - [07/Nov/2026 20:12:29] "GET /posts/2 HTTP/1.1" 200 -
+2026-11-07 20:12:30,020 - INFO - 127.0.0.1 - - [07/Nov/2026 20:12:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 20:12:32,783 - INFO - 127.0.0.1 - - [07/Nov/2026 20:12:32] "GET /posts/2/edit HTTP/1.1" 200 -
+2026-11-07 20:12:32,813 - INFO - 127.0.0.1 - - [07/Nov/2026 20:12:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 20:12:34,339 - INFO - 127.0.0.1 - - [07/Nov/2026 20:12:34] "GET /posts/ HTTP/1.1" 200 -
+2026-11-07 20:12:34,364 - INFO - 127.0.0.1 - - [07/Nov/2026 20:12:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 20:12:34,370 - INFO - 127.0.0.1 - - [07/Nov/2026 20:12:34] "[36mGET /posts/static/img/default.jpg HTTP/1.1[0m" 304 -
+2026-11-07 20:12:34,371 - INFO - 127.0.0.1 - - [07/Nov/2026 20:12:34] "[36mGET /posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2026-11-07 20:12:35,077 - INFO - 127.0.0.1 - - [07/Nov/2026 20:12:35] "GET /posts/2 HTTP/1.1" 200 -
+2026-11-07 20:12:35,102 - INFO - 127.0.0.1 - - [07/Nov/2026 20:12:35] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 20:12:55,852 - INFO - 127.0.0.1 - - [07/Nov/2026 20:12:55] "GET /posts/2/edit HTTP/1.1" 200 -
+2026-11-07 20:12:55,877 - INFO - 127.0.0.1 - - [07/Nov/2026 20:12:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 20:13:07,324 - INFO - 127.0.0.1 - - [07/Nov/2026 20:13:07] "[32mPOST /posts/2/edit HTTP/1.1[0m" 302 -
+2026-11-07 20:13:07,329 - INFO - 127.0.0.1 - - [07/Nov/2026 20:13:07] "GET /posts/2 HTTP/1.1" 200 -
+2026-11-07 20:13:07,375 - INFO - 127.0.0.1 - - [07/Nov/2026 20:13:07] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 20:13:22,162 - INFO - 127.0.0.1 - - [07/Nov/2026 20:13:22] "GET /posts/2/delete HTTP/1.1" 200 -
+2026-11-07 20:13:22,188 - INFO - 127.0.0.1 - - [07/Nov/2026 20:13:22] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 20:13:31,857 - INFO - 127.0.0.1 - - [07/Nov/2026 20:13:31] "[32mPOST /posts/2/delete HTTP/1.1[0m" 302 -
+2026-11-07 20:13:31,862 - INFO - 127.0.0.1 - - [07/Nov/2026 20:13:31] "GET /posts/ HTTP/1.1" 200 -
+2026-11-07 20:13:31,911 - INFO - 127.0.0.1 - - [07/Nov/2026 20:13:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-11-07 20:13:31,912 - INFO - 127.0.0.1 - - [07/Nov/2026 20:13:31] "[36mGET /posts/static/img/default.jpg HTTP/1.1[0m" 304 -
+2026-11-07 20:13:31,912 - INFO - 127.0.0.1 - - [07/Nov/2026 20:13:31] "[36mGET /posts/static/css/posts.css HTTP/1.1[0m" 304 -
+2026-11-07 20:14:33,637 - INFO -  * Detected change in 'D:\\PNU2\\rik3\\1_sem\\Python\\flask_app_Zomchak\\tests\\test_posts.py', reloading
+2026-11-07 20:14:33,741 - INFO -  * Restarting with stat
+2026-11-07 20:14:34,341 - WARNING -  * Debugger is active!
+2026-11-07 20:14:34,344 - INFO -  * Debugger PIN: 111-119-912
+2026-11-07 20:16:59,241 - INFO - The CSRF token is missing.
